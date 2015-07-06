@@ -1,0 +1,9 @@
+<glade-catalog name="about_docbuilder_dialog" domain="glade-3" 
+               depends="gtk+" version="1.0">
+  <glade-widget-classes>
+    <glade-widget-class title="About Docbuilder Dialog" name="AboutDocbuilderDialog" 
+                        generic-name="AboutDocbuilderDialog" parent="GtkAboutDialog"
+                        icon-name="widget-gtk-about-dialog"/>
+  </glade-widget-classes>
+
+</glade-catalog>

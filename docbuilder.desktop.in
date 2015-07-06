@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Docbuilder
+_Comment=Docbuilder application
+Categories=GNOME;Utility;
+Exec=docbuilder
+Icon=docbuilder
+Terminal=false
+Type=Application
