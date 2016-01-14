@@ -34,6 +34,7 @@ class DocbuilderWindow(Window):
         self.tbAuthor = self.builder.get_object("tbAuthor")
         self.tbTitle = self.builder.get_object("tbTitle")
         self.cbDate = self.builder.get_object("cbDate")
+        self.btnDate = self.builder.get_object("btnDate")
         self.tbDate = self.builder.get_object("tbDate")
         self.btnBuild = self.builder.get_object("btnBuilder")
         self.boxFile1 = self.builder.get_object("boxFile1")
@@ -128,4 +129,6 @@ class DocbuilderWindow(Window):
         self.BoxCount += 1
         self.newBox = Gtk.HBox(True,3)
         self.boxDynamic.add(self.newBox)
+
+    def on_btnDate_clicked(self, widget):
         
