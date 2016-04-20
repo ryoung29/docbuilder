@@ -129,3 +129,6 @@ class DocbuilderWindow(Window):
         self.newBox = Gtk.HBox(True,3)
         self.boxDynamic.add(self.newBox)
         
+        
+    def on_btnExport_clicked(self, widget):
+        pass
